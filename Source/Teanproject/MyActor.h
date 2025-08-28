@@ -7,11 +7,13 @@
 #include "MyActor.generated.h"
 
 UCLASS()
-class TEANPROJECT_API AMyActor : public AActor
+class TEAMPROJECT_API AMyActor : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	AMyActor();
+
+	virtual void BeginPlay() override;
 
 };
